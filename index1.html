@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Parcial 2 API Consumer</title>
+</head>
+<body>
+  <h1>Parcial 2 API Consumer</h1>
+  <div>
+    <label for="origin">Origin:</label>
+    <select id="origin">
+      <option value="">All</option>
+      <option value="Earth">Earth</option>
+      <option value="Abadango">Abadango</option>
+      <option value="unknown">Unknown</option>
+    </select>
+  </div>
+  <div>
+    <label for="species">Species:</label>
+    <select id="species">
+      <option value="">All</option>
+      <option value="Human">Human</option>
+      <option value="Alien">Alien</option>
+      <option value="Robot">Robot</option>
+      <option value="unknown">Unknown</option>
+    </select>
+  </div>
+  <button id="filter">Filter</button>
+  <div id="results"></div>
+  <div id="details"></div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

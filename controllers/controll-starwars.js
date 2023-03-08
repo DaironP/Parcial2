@@ -1,8 +1,5 @@
 const Starwars = require('../models/Starwars')
 
-
-const Customer = require('../models/Customer')
-
 module.exports = {
     index : async(req,res)=>{
         try{
